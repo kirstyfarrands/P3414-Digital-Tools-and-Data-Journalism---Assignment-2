@@ -2,7 +2,7 @@
 <body>
 
 <div style="position:relative;">
-  <img src="hero.jpeg" style="width:100%; height:500px; object-fit:cover;">
+  <img src="newimage.jpeg" style="width:100%; height:500px; object-fit:cover;">
   
   <h1 style="
       position:absolute;
