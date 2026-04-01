@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bad Bunny Story</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    .hero {
+      width: 100%;
+      height: 70vh;
+      min-height: 420px;
+      max-height: 700px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      max-width: 700px;
+      color: white;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin: 0 0 10px;
+      line-height: 1.1;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .byline {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 1.8rem;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 22px;
+    }
+
+    .full-image {
+      margin: 40px 0;
+    }
+
+    .full-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    .embed {
+      margin: 40px 0;
+    }
+
+    .embed iframe {
+      width: 100%;
+      min-height: 500px;
+      border: none;
+    }
+
+    .quote {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      margin: 40px 0;
+      padding-left: 20px;
+      border-left: 4px solid #111;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        height: 55vh;
+      }
+
+      .hero-text {
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+      }
+
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+
+      .hero-text p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <img src="bad-bunny-hero.jpg" alt="Bad Bunny Super Bowl performance">
+    <div class="hero-text">
+      <h1>Debí Tirar Más Fotos: The Fans Missing From Bad Bunny’s Biggest Stage</h1>
+      <p>How a Super Bowl performance about love, identity and visibility resonated with Latin immigrant communities living under the shadow of ICE.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="byline">By Your Name | Assignment 2 Creative Project</div>
+
+    <p>
+      Put your intro here. Keep it short and strong. Start with the stadium image, the message on the screen,
+      and then connect it to the idea that for many Latin immigrants, visibility can carry risk.
+    </p>
+
+    <p>
+      Your second paragraph can explain the core angle of the story: Bad Bunny’s cultural reach, the symbolism
+      of the halftime stage, and the contrast between public celebration and private fear.
+    </p>
+
+    <div class="full-image">
+      <img src="stadium-message.jpg" alt="The only thing more powerful than hate is love">
+      <div class="caption">
+        Replace this with your caption and credit.
+      </div>
+    </div>
+
+    <h2>What did the performance represent?</h2>
+
+    <p>
+      Add your analysis of the performance here. Focus on symbolism, lyrics, identity, and how Latin culture
+      was presented on one of the most visible stages in the United States.
+    </p>
+
+    <div class="quote">
+      “The only thing more powerful than hate is love.”
+    </div>
+
+    <p>
+      Use this section to interpret the message and link it to the wider political climate around immigration.
+    </p>
+
+    <h2>Where fear shapes public life</h2>
+
+    <p>
+      Introduce your ICE angle here. This should set up your map, chart, or locator visual.
+    </p>
+
+    <div class="embed">
+      <!-- Replace the src below with your Datawrapper / Flourish / Knight Lab embed code -->
+      <iframe src="PASTE-YOUR-EMBED-LINK-HERE"></iframe>
+    </div>
+
+    <p>
+      Explain what the visual shows and why it matters.
+    </p>
+
+    <h2>The photos that were never taken</h2>
+
+    <p>
+      This is where you connect the album title to your argument about absence, invisibility, and who is left out
+      of public celebration.
+    </p>
+
+    <div class="embed">
+      <iframe src="PASTE-YOUR-SECOND-EMBED-LINK-HERE"></iframe>
+    </div>
+
+    <p>
+      Add a short explanation under the second visual.
+    </p>
+
+    <h2>Why this moment mattered</h2>
+
+    <p>
+      End with your wider point: Bad Bunny’s performance was not just entertainment, but a cultural and political
+      moment. Explain why it mattered for Latin immigrant communities and what tensions it revealed.
+    </p>
+  </main>
+
+</body>
+</html>
