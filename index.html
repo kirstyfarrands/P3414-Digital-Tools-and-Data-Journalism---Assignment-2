@@ -194,6 +194,78 @@
         <img src="https://public.flourish.studio/visualisation/28375672/thumbnail" width="100%" alt="visualization" />
       </noscript>
     </div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Charts</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 40px;
+    }
+
+    .charts-row {
+      display: flex;
+      justify-content: center;
+      align-items: stretch; /* makes them line up evenly */
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .chart-box {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Makes embeds fill the box properly */
+    .flourish-embed {
+      width: 100%;
+    }
+
+    /* Optional: add subtle visual polish */
+    .chart-box {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>What did the performance represent?</h2>
+
+  <div class="charts-row">
+
+    <div class="chart-box">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/28383514"></div>
+    </div>
+
+    <div class="chart-box">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/28375729"></div>
+    </div>
+
+    <div class="chart-box">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/28375672"></div>
+    </div>
+
+  </div>
+
+  <!-- Load once -->
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+
+</body>
+</html>
+
     
     
     <iframe title="" aria-label="Pie Chart" id="datawrapper-chart-IBEo5" src="https://datawrapper.dwcdn.net/IBEo5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 200px !important; border: none;" height="30" data-external="1">
