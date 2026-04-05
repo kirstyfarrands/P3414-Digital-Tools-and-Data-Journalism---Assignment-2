@@ -242,6 +242,104 @@
 </body>
 </html>
 
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Charts Section</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    /* SECTION WITH BACKGROUND IMAGE + OVERLAY */
+    .charts-section {
+      position: relative;
+      padding: 80px 20px;
+      overflow: hidden;
+    }
+
+    /* Background image */
+    .charts-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("images/background.jpg"); /* 🔁 change this */
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+    }
+
+    /* Dark overlay */
+    .charts-section::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5); /* adjust darkness */
+      z-index: -1;
+    }
+
+    /* CHART LAYOUT */
+    .charts-row {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .chart-box {
+      width: 300px;
+      backdrop-filter: blur(2px); /* subtle polish */
+    }
+
+    .flourish-embed {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="charts-section">
+
+    <h2>What did the performance represent?</h2>
+
+    <div class="charts-row">
+
+      <div class="chart-box">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28383514"></div>
+      </div>
+
+      <div class="chart-box">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28375729"></div>
+      </div>
+
+      <div class="chart-box">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28375672"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Load Flourish ONCE -->
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+
+</body>
+</html>
+
+
+    
     
     <h2></h2>
     
