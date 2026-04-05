@@ -261,13 +261,11 @@
       color: white;
     }
 
-    /* SECTION WITH BACKGROUND IMAGE + OVERLAY */
     .charts-section {
-      position: relative;
-      padding: 80px 20px;
-      overflow: hidden;
-    }
-
+  position: relative;
+  width: 100vw;        /* full viewport width */
+  margin-left: calc(-50vw + 50%); /* breaks out of centered layouts */
+}
     /* Background image */
     .charts-section::before {
       content: "";
